@@ -4,6 +4,7 @@
   --cloud: #f4f4fd;
   --ocean: #404bbf;
   --slate: #434455;
+  --white: #ffffff;
 }
 
 body {
@@ -68,10 +69,46 @@ body {
   text-decoration: none;
 }
 
-.mail:hover {
+.tel {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--slate);
+  text-decoration: none;
+}
+
+.contact a:hover {
   color: var(--ocean);
 }
 
-.mail:visited {
+.contact a:focus {
   color: var(--ocean);
+}
+.first-section {
+  background-color: var(--navy-blue);
+}
+.first-section-header {
+  color: var(--white);
+  font-size: 56px;
+  line-height: 1.07;
+  text-align: center;
+  letter-spacing: 0.02em;
+}
+
+.first-section-button {
+  color: var(--white);
+  background-color: var(--iris);
+  font-weight: 500;
+  font-size: 16px;
+  font-family: "Roboto", sans-serif;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  cursor: pointer;
+}
+.first-section-button:hover {
+  background-color: var(--ocean);
+}
+
+.first-section-button:focus {
+  background-color: var(--ocean);
 }
