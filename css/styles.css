@@ -36,7 +36,7 @@ body {
   list-style: none;
 }
 
-.list-item {
+list-items {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
@@ -120,6 +120,9 @@ body {
 
 .second-section-list {
   list-style: none;
+}
+.first-section-header {
+  color: var(--white);
 }
 
 .second-section-list-item {
@@ -225,4 +228,8 @@ body {
 
 .images-link {
   text-decoration: none;
+}
+
+.list {
+  list-style: none;
 }
