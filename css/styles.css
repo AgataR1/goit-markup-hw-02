@@ -1,0 +1,77 @@
+:root {
+  --iris: #4d5ae5;
+  --navy-blue: #2e2f42;
+  --cloud: #f4f4fd;
+  --ocean: #404bbf;
+  --slate: #434455;
+}
+
+body {
+  font-family: "Roboto", "Verdana", "Tahoma", sans-serif;
+  color: #434455;
+  background: #fff;
+}
+
+.logo {
+  font-family: "Raleway", sans-serif;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--iris);
+}
+
+.highlight-one {
+  color: var(--navy-blue);
+}
+
+.highlight-two {
+  color: var(--cloud);
+}
+
+.list-items a {
+  text-decoration: none;
+}
+
+.list-item {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--navy-blue);
+  text-decoration: none;
+}
+
+.list-item:hover {
+  color: var(--ocean);
+}
+
+.list-item:visited {
+  color: var(--ocean);
+}
+
+.link {
+  text-decoration: none;
+}
+
+.contact {
+  font-style: normal;
+  list-style: none;
+}
+
+.mail {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--slate);
+  text-decoration: none;
+}
+
+.mail:hover {
+  color: var(--ocean);
+}
+
+.mail:visited {
+  color: var(--ocean);
+}
