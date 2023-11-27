@@ -8,7 +8,7 @@
 }
 
 body {
-  font-family: "Roboto", "Verdana", "Tahoma", sans-serif;
+  font-family: "Roboto", sans-serif;
   color: #434455;
   background: #fff;
 }
@@ -31,8 +31,9 @@ body {
   color: var(--cloud);
 }
 
-.list-items a {
+.list-items {
   text-decoration: none;
+  list-style: none;
 }
 
 .list-item {
@@ -75,6 +76,10 @@ body {
   letter-spacing: 0.02em;
   color: var(--slate);
   text-decoration: none;
+}
+
+.contact-list {
+  list-style: none;
 }
 
 .contact a:hover {
@@ -122,7 +127,7 @@ body {
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
-  color: var(--navy-blue);
+  color: var(--slate);
 }
 
 .description {
@@ -209,7 +214,7 @@ body {
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
-  color: var(--navy-blue);
+  color: var(--slate);
 }
 .image-description {
   font-size: 16px;
