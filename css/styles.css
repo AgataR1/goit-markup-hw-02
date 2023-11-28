@@ -9,8 +9,8 @@
 
 body {
   font-family: "Roboto", sans-serif;
-  color: #434455;
-  background: #fff;
+  color: var(--slate);
+  background: var(--white);
 }
 
 a {
@@ -37,7 +37,7 @@ a {
 }
 
 .highlight-two {
-  color: #f4f4fd;
+  color: var(--cloud);
 }
 .list a {
   text-decoration: none;
@@ -55,29 +55,22 @@ a {
 }
 
 .list-item:hover {
-  color: #404bbf;
+  color: var(--ocean);
 }
 
 .list-item:focus {
-  color: #404bbf;
+  color: var(--ocean);
 }
 
-.contact-list-item {
-  font-size: 16px;
-  font-weight: 400;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-  color: var(--slate);
-}
 .contact-list {
   list-style: none;
 }
 .contact-list a:hover {
-  color: #404bbf;
+  color: var(--ocean);
 }
 
 .contact-list a:focus {
-  color: #404bbf;
+  color: var(--ocean);
 }
 
 .contact-list a {
@@ -111,11 +104,11 @@ a {
   cursor: pointer;
 }
 .first-section-button:hover {
-  background-color: #404bbf;
+  background-color: var(--ocean);
 }
 
 .first-section-button:focus {
-  background-color: #404bbf;
+  background-color: var(--ocean);
 }
 
 .third-header {
@@ -145,27 +138,11 @@ a {
 }
 
 .section-four {
-  background-color: #f4f4fd;
+  background-color: var(--cloud);
 }
 
 .section-four-item {
-  background-color: #ffffff;
-}
-
-.name {
-  color: var(--navy-blue);
-  font-size: 20px;
-  font-weight: 500;
-  line-height: 1.2;
-  letter-spacing: 0.02em;
-}
-
-.job-position {
-  color: var(--slate);
-  font-size: 16px;
-  font-weight: 400;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
+  background-color: var(--white);
 }
 
 .page-footer {
@@ -186,41 +163,25 @@ a {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.04em;
-  color: #4d5ae5;
+  color: var(--iris);
   background-color: #f4f4fd;
   cursor: pointer;
 }
 
 .portfolio-button:hover {
-  color: #ffffff;
-  background-color: #404bbf;
+  color: var(--white);
+  background-color: var(--ocean);
 }
 .portfolio-button:focus {
-  color: #ffffff;
-  background-color: #404bbf;
-}
-
-.image-header {
-  font-size: 20px;
-  font-weight: 500;
-  line-height: 1.2;
-  letter-spacing: 0.02em;
-  color: var(--navy-blue);
-}
-
-.category {
-  color: var(--slate);
-  font-size: 16px;
-  font-weight: 400;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
+  color: var(--white);
+  background-color: var(--ocean);
 }
 
 .contact {
   font-style: normal;
 }
 .mail {
-  color: #434455;
+  color: var(--slate);
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
